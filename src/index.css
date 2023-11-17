@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(./assets/fonts/OpenSans-Regular.ttf);
+}
+
+:root {
+  font-family: 'Open Sans';
+}
+
+html {
+  scroll-behavior: smooth;
+}
