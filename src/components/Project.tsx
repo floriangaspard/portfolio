@@ -8,7 +8,7 @@ type ProjectProps = {
   imgLink: string;
 };
 
-export const Project = ({ title, description, tags, link, imgLink }: ProjectProps) => {
+export const Project = ({ title, description, tags }: ProjectProps) => {
   return (
     <div className="group">
       <div className="mb-10 p-5 rounded-xl bg-gray-100 group-hover:cursor-pointer  group-hover:bg-black group-hover:text-white">
