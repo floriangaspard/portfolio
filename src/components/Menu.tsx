@@ -1,7 +1,7 @@
-import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faBars, faClose, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { MutableRefObject, useEffect, useRef, useState } from 'react';
+import { Socials } from './Socials';
 
 type MenuProps = {
   refs: MutableRefObject<HTMLElement[]>;
@@ -70,6 +70,9 @@ export const Menu = ({ refs }: MenuProps) => {
       >
         <FontAwesomeIcon icon={toggled ? faClose : faBars} className="text-2xl" />
       </button>
+      <div className="lg:hidden absolute top-4 right-6 z-20">
+        <Socials />
+      </div>
       <div className="sticky top-0 z-10 lg:w-3/12 lg:h-screen">
         <div
           className={
@@ -101,12 +104,8 @@ export const Menu = ({ refs }: MenuProps) => {
                 </a>
               </li>
             </ul>
-            <div className="flex gap-4 pl-7 mb-7 absolute bottom-0 left-0">
-              <a href="https://github.com/floriangaspard" target="_blank">
-                <FontAwesomeIcon icon={faGithub} className="text-3xl" />
-              </a>
-              <FontAwesomeIcon icon={faEnvelope} className="text-3xl" />
-              <FontAwesomeIcon icon={faInstagram} className="text-3xl" />
+            <div className="pl-7 mb-7 absolute bottom-0 left-0">
+              <Socials />
             </div>
           </div>
         </div>
