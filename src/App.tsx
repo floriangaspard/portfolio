@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="lg:flex lg:flex-row">
       <Menu refs={refs} />
-      <div className="flex flex-col text-xl p-10 lg:w-8/12">
+      <div className="flex flex-col text-xl py-12 px-10 lg:w-8/12">
         <About refs={refs} />
         <Experience refs={refs} />
         <Projects refs={refs} />

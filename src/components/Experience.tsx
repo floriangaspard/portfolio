@@ -17,7 +17,7 @@ export const Experience = ({ refs }: ExperienceProps) => {
       className="flex flex-col mb-14 pb-14 border-b-4 border-black relative"
     >
       <h2 className="text-4xl mb-10 font-bold">Experience</h2>
-      <div className="before:bg-gray-300 before:w-[4px] before:absolute before:h-[76%] before:left-10 before:rounded-xl pl-24">
+      <div className="relative before:bg-gray-300 before:w-[4px] before:absolute before:h-[98%] before:left-10 before:rounded-xl pl-24">
         <WorkExperience
           time="2222 - 2223"
           title="Full stack developer"
