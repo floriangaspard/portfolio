@@ -22,19 +22,25 @@ export const About = ({ refs }: AboutProps) => {
           </div>
           <div className="flex flex-wrap gap-4">
             <Tag value="React" />
-            <Tag value="Typescript" />
+            <Tag value="TypeScript" />
             <Tag value="C#" />
             <Tag value=".Net" />
             <Tag value="Python" />
+            <Tag value="SQL" />
+            <Tag value="NoSQL" />
+            <Tag value="Azure" />
             <Tag value="Solidity" />
+            <Tag value="Hardhat" />
           </div>
         </div>
         <p className="bg-gray-100 p-5 rounded-xl mb-14">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, alias
-          exercitationem recusandae voluptas facilis laborum qui ab neque, odit unde porro eveniet
-          in minus rem temporibus quis aut? Dolorem, eius.Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Consequuntur, alias exercitationem recusandae voluptas facilis laborum
-          qui ab neque, odit unde porro eveniet in minus rem temporibus quis aut? Dolorem, eius.
+          I bring my front-end and back-end knowledge to build the most <b>exceptional</b> web
+          applications. <br />
+          <br /> I like to write <b>performant</b>, <b>structured</b> and <b>well tested</b> code to
+          deliver the highest quality products.
+          <br />
+          <br /> I also have had a growing interest in <b>blockchains</b> and <b>smart contracts</b>{' '}
+          which lead me to learn the necessary skills to build with these technologies.
         </p>
       </div>
     </section>

@@ -18,29 +18,26 @@ export const Projects = ({ refs }: ProjectsProps) => {
       <div className="">
         <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
           <Project
-            title="Project 1"
-            description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, alias
-  exercitationem recusandae voluptas facilis laborum qui ab neque, odit unde porro eveniet
-  in minus rem temporibus quis aut? Dolorem, eius."
-            tags={['React', 'C#']}
+            title="FSwap"
+            description="Ethereum token swapping web application running on the sepolia ethereum testnet. 
+            Allows the providing of liquidity in a pool of a token and ethereum and the swapping between these two. 
+            Developed as a personal challenge and as a part of a learning process."
+            tags={['React', 'TypeScript', 'Solidity', 'Hardhat']}
             imgLink=""
-            link=""
+            link="https://fswap.floriangaspard.com"
           />
           <Project
-            title="Project 1"
-            description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, alias
-  exercitationem recusandae voluptas facilis laborum qui ab neque, odit unde porro eveniet
-  in minus rem temporibus quis aut? Dolorem, eius."
-            tags={['React', 'C#']}
+            title="Portfolio"
+            description="Personal website for showcasing my work."
+            tags={['React', 'Typescript', 'TailwindCSS']}
             imgLink=""
-            link=""
+            link="https://floriangaspard.com"
           />
           <Project
-            title="Project 1"
-            description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, alias
-  exercitationem recusandae voluptas facilis laborum qui ab neque, odit unde porro eveniet
-  in minus rem temporibus quis aut? Dolorem, eius."
-            tags={['React', 'C#']}
+            title="Cryptocurrencies trading algorithms"
+            description="Developed a personal app for backtesting algorithmic trading strategies and running them on exchanges. 
+            Also developed a dashboard monitoring the different running strategies and their results."
+            tags={['React', 'TypeScript', 'Python', 'Redis']}
             imgLink=""
             link=""
           />
