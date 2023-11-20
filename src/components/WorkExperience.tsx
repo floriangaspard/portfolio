@@ -25,7 +25,7 @@ export const WorkExperience = ({ time, title, description, tags, link }: WorkExp
         <p className="font-bold mb-3 text-2xl">{time}</p>
         <h3 className="mb-3 font-bold">{title}</h3>
         <p className="mb-4">{description}</p>
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row flex-wrap gap-4">
           {tags.map((t) => (
             <Tag value={t} />
           ))}

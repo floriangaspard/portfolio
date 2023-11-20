@@ -29,7 +29,7 @@ export const Experience = ({ refs }: ExperienceProps) => {
         <WorkExperience
           time="Feb 2022 - Sept 2023"
           title="Full stack developer - Amiltone"
-          description="Designed and developed a recipe sharing web application for 6 months before working for one of the companies' 
+          description="Designed and developed a cooking recipe sharing web application for 6 months before working for one of the companies' 
           client on another project."
           tags={['React', 'TypeScript', 'C#', '.Net', 'Flutter', 'SQL']}
           link="https://www.amiltone.com/"
