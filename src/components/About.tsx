@@ -26,6 +26,8 @@ export const About = ({ refs }: AboutProps) => {
             <Tag value="C#" />
             <Tag value=".Net" />
             <Tag value="Python" />
+            <Tag value="Django" />
+            <Tag value="Flask" />
             <Tag value="SQL" />
             <Tag value="NoSQL" />
             <Tag value="Azure" />

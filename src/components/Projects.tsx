@@ -19,9 +19,9 @@ export const Projects = ({ refs }: ProjectsProps) => {
         <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
           <Project
             title="FSwap"
-            description="Ethereum token swapping web application running on the sepolia ethereum testnet. 
-            Allows the providing of liquidity in a pool of a token and ethereum and the swapping between these two. 
-            Developed as a personal challenge and as a part of a learning process."
+            description="Ethereum decentralized exchange running on the sepolia ethereum testnet. 
+            Allows the providing of liquidity in a pool and the swapping between the tokens. 
+            Developed as a personal challenge and as part of a learning process."
             tags={['React', 'TypeScript', 'Solidity', 'Hardhat']}
             imgLink=""
             link="https://fswap.floriangaspard.com"
