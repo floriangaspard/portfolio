@@ -1,5 +1,7 @@
 import { MutableRefObject } from 'react';
 import { Tag } from './Tag';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons/faLink';
 
 type AboutProps = {
   refs: MutableRefObject<HTMLElement[]>;
@@ -35,15 +37,26 @@ export const About = ({ refs }: AboutProps) => {
             <Tag value="Hardhat" />
           </div>
         </div>
-        <p className="bg-gray-100 p-5 rounded-xl mb-14">
-          I bring my front-end and back-end knowledge to build the most <b>exceptional</b> web
-          applications. <br />
-          <br /> I like to write <b>performant</b>, <b>structured</b> and <b>well tested</b> code to
-          deliver the highest quality products.
-          <br />
-          <br /> I also have had a growing interest in <b>blockchains</b> and <b>smart contracts</b>{' '}
-          which lead me to learn the necessary skills to build with these technologies.
-        </p>
+        <div className="bg-gray-100 p-5 rounded-xl mb-14">
+          <p className="mb-6">
+            I bring my front-end and back-end knowledge to build the most <b>exceptional</b> web
+            applications. <br />
+            <br /> I like to write <b>performant</b>, <b>structured</b> and <b>well tested</b> code
+            to deliver the highest quality products.
+            <br />
+            <br /> I also have had a growing interest in <b>blockchains</b> and{' '}
+            <b>smart contracts</b> which lead me to learn the necessary skills to build with these
+            technologies.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/1XaC42zH0dNTbEgLlWBcsluzRZnxMIo1b/view?usp=sharing"
+            target="_blank"
+            className="bg-black text-white px-5 py-2 rounded-xl"
+          >
+            <FontAwesomeIcon icon={faLink} className="mr-3" />
+            Resume
+          </a>
+        </div>
       </div>
     </section>
   );
