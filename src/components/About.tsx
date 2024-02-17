@@ -44,9 +44,9 @@ export const About = ({ refs }: AboutProps) => {
             <br /> I like to write <b>performant</b>, <b>structured</b> and <b>well tested</b> code
             to deliver the highest quality products.
             <br />
-            <br /> I also have had a growing interest in <b>blockchains</b> and{' '}
-            <b>smart contracts</b> which lead me to learn the necessary skills to build with these
-            technologies.
+            <br /> I also develop full stack web3 applications, from <b>
+              smart contracts
+            </b> using <b>solidity</b> or <b>clarity</b>, to the front end.
           </p>
           <a
             href="https://drive.google.com/file/d/1XaC42zH0dNTbEgLlWBcsluzRZnxMIo1b/view?usp=sharing"
