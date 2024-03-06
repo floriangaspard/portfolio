@@ -1,4 +1,3 @@
-<br />
 <div align="center">
   <a href="https://floriangaspard.com">
     <img src="public/fg.jpg" alt="Logo" width="80" height="80">
