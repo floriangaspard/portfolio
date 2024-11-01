@@ -32,9 +32,6 @@ export const About = ({ refs }: AboutProps) => {
             <Tag value="Flask" />
             <Tag value="SQL/NoSQL" />
             <Tag value="Azure" />
-            <Tag value="Solidity" />
-            <Tag value="Hardhat" />
-            <Tag value="Clarity" />
           </div>
         </div>
         <div className="bg-gray-100 p-5 rounded-xl mb-14">
@@ -43,9 +40,6 @@ export const About = ({ refs }: AboutProps) => {
             applications. <br />
             <br /> I like to write <b>performant</b>, <b>structured</b> and <b>well tested</b> code
             to deliver the highest quality products.
-            <br />
-            <br /> I also develop full stack web3 applications and write <b>smart contracts</b>{' '}
-            using <b>solidity</b> and <b>clarity</b>.
           </p>
           <a
             href="https://drive.google.com/file/d/1XaC42zH0dNTbEgLlWBcsluzRZnxMIo1b/view?usp=sharing"
