@@ -21,25 +21,52 @@ export const Experience = ({ refs }: ExperienceProps) => {
         <WorkExperience
           time="Sept 2022 - Sept 2023"
           title="Full stack developer - Tiama"
-          description="Worked on the Tiama Eco-System project with an international team, maintained the existing project as well as 
-          designed and developed new features following a SCRUM organisation."
-          tags={['React', 'TypeScript', 'C#', '.Net', 'Azure', 'MongoDB', 'InfluxDB']}
+          description="In an international context, development and maintenance of an industrial platform, including creation of real-time data visualizations, equipment integration, and deployment of solutions to remote sites, applying DevOps best practices."
+          tags={[
+            'C#',
+            '.Net',
+            'React',
+            'TypeScript',
+            'Azure',
+            'MongoDB',
+            'InfluxDB',
+            'RabbitMQ',
+            'SignalR',
+            'Visual Studio',
+          ]}
           link="https://www.tiama.com/"
         />
         <WorkExperience
           time="Feb 2022 - Sept 2023"
           title="Full stack developer - Amiltone"
-          description="Designed and developed a cooking recipe sharing web application for 6 months before working for one of the companies' 
-          client on another project."
-          tags={['React', 'TypeScript', 'C#', '.Net', 'Flutter', 'SQL']}
+          description="Design and development of a recipe sharing web application (architecture, RESTful API, frontend), before joining the TIAMA team for industrial platform development.
+"
+          tags={[
+            'C#',
+            '.Net',
+            'React',
+            'Javascript',
+            'Next.js',
+            'SQL Server',
+            'Gitlab',
+            'Visual Studio',
+          ]}
           link="https://www.amiltone.com/"
         />
         <WorkExperience
           time="Jun 2021 - Oct 2021"
           title="Full stack developer and data scientist internship - VIF Systems"
-          description="Designed and developed a dashboard for a vertical farm monitoring system, bringing farming statistics 
-          to a modern and performant web application. I also analysed this data using machine learning techniques."
-          tags={['React', 'TypeScript', 'Python', 'Django', 'Azure', 'SQL']}
+          description="Complete design of an agricultural monitoring solution including database, integration API, and interactive dashboard with geographical visualizations and real-time graphs, complemented by LED systems optimization analysis using machine learning."
+          tags={[
+            'Python',
+            'Django',
+            'React',
+            'Javascript',
+            'R',
+            'Azure',
+            'SQLite',
+            'Visual Studio Code',
+          ]}
           link="https://vif-systems.com/"
         />
       </div>

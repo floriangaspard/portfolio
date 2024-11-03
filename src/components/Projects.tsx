@@ -18,33 +18,48 @@ export const Projects = ({ refs }: ProjectsProps) => {
       <div className="">
         <div className="gap-10 grid grid-cols-1 md:grid-cols-2">
           <Project
-            title="FSwap"
-            description="Ethereum decentralized exchange running on the sepolia ethereum testnet. 
-            Allows the providing of liquidity in a pool and the swapping between the tokens. 
-            Developed as a personal challenge and as part of a learning process."
-            tags={['React', 'TypeScript', 'Solidity', 'Hardhat']}
+            title="DeFi Platform"
+            description="Development of a decentralized exchange platform on Ethereum enabling token swaps and liquidity pool management via smart contracts."
+            tags={[
+              'React',
+              'TypeScript',
+              'TailwindCSS',
+              'Solidity',
+              'Hardhat',
+              'Ethers',
+              'Ethereum',
+              'Git',
+              'Visual Studio Code',
+            ]}
             imgLink="/fswap.png"
             link="https://fswap.floriangaspard.com"
           />
           <Project
-            title="Marxet"
-            description="NFT marketplace on the stacks ecosystem."
-            tags={['React', 'TypeScript', 'Clarity', 'Stacks', 'Shadcn-ui']}
+            title="NFT Marketplace"
+            description="Creation of an NFT marketplace on Stacks blockchain including management smart contract and sales user interface."
+            tags={[
+              'React',
+              'TypeScript',
+              'Shadcn-ui',
+              'Clarity',
+              'Stacks',
+              'Git',
+              'Visual Studio Code',
+            ]}
             imgLink="/marxet.png"
             link="https://marxet.floriangaspard.com"
           />
           <Project
             title="Portfolio"
-            description="Personal website for showcasing my work."
-            tags={['React', 'Typescript', 'TailwindCSS']}
+            description="Creation of a modern portfolio showcasing my projects and skills."
+            tags={['React', 'Typescript', 'TailwindCSS', 'Shadcn-ui', 'Git', 'Visual Studio Code']}
             imgLink="/portfolio.png"
             link="https://floriangaspard.com"
           />
           <Project
-            title="Cryptocurrencies trading algorithms"
-            description="Developed a personal app for backtesting algorithmic trading strategies and running them on exchanges. 
-            Also developed a dashboard monitoring the different running strategies and their results."
-            tags={['React', 'TypeScript', 'Python', 'Redis']}
+            title="Algorithmic trading platform"
+            description="Development of a complete algorithmic trading solution including backtesting, automated execution, and real-time performance monitoring."
+            tags={['Python', 'Flask', 'React', 'TypeScript', 'Redis', 'Git', 'Visual Studio Code']}
             imgLink="crypto.jpeg"
             link=""
           />

@@ -23,13 +23,13 @@ export const About = ({ refs }: AboutProps) => {
             <h2 className="text-5xl mb-10">Full stack developer</h2>
           </div>
           <div className="flex flex-wrap gap-4">
-            <Tag value="React" />
-            <Tag value="TypeScript" />
             <Tag value="C#" />
             <Tag value=".Net" />
+            <Tag value="React" />
+            <Tag value="Javascript" />
+            <Tag value="TypeScript" />
             <Tag value="Python" />
             <Tag value="Django" />
-            <Tag value="Flask" />
             <Tag value="SQL/NoSQL" />
             <Tag value="Azure" />
           </div>
@@ -42,7 +42,7 @@ export const About = ({ refs }: AboutProps) => {
             to deliver the highest quality products.
           </p>
           <a
-            href="https://drive.google.com/file/d/1XaC42zH0dNTbEgLlWBcsluzRZnxMIo1b/view?usp=sharing"
+            href="https://drive.google.com/file/d/1a7g0IT96-juoc1xLhYHhT1b1UXArekYV/view?usp=drive_link"
             target="_blank"
             className="bg-black text-white px-5 py-2 rounded-xl"
           >
