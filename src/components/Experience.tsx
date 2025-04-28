@@ -57,16 +57,7 @@ export const Experience = ({ refs }: ExperienceProps) => {
           time="Jun 2021 - Oct 2021"
           title="Full stack developer and data scientist internship - VIF Systems"
           description="Complete design of an agricultural monitoring solution including database, integration API, and interactive dashboard with geographical visualizations and real-time graphs, complemented by LED systems optimization analysis using machine learning."
-          tags={[
-            'Python',
-            'Django',
-            'React',
-            'Javascript',
-            'R',
-            'Azure',
-            'SQLite',
-            'Visual Studio Code',
-          ]}
+          tags={['C#', '.Net', 'React', 'Javascript', 'R', 'Azure', 'SQLite', 'Visual Studio Code']}
           link="https://vif-systems.com/"
         />
       </div>
