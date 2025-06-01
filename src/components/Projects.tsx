@@ -18,14 +18,15 @@ export const Projects = ({ refs }: ProjectsProps) => {
       <div className="">
         <div className="gap-10 grid grid-cols-1 md:grid-cols-2">
           <Project
+            time="2024 - present"
             title="noo2.news"
             description="A decentralized news platform built on the NOSTR protocol that analyzes trends with LLM models, featuring a modern, responsive interface and real-time updates."
             tags={[
-              'React',
-              'TypeScript',
               'C#',
               '.NET',
               'MongoDB',
+              'React',
+              'TypeScript',
               'TailwindCSS',
               'Git',
               'Visual Studio Code',
@@ -34,6 +35,25 @@ export const Projects = ({ refs }: ProjectsProps) => {
             link="https://noo2.news"
           />
           <Project
+            time="2025 - present"
+            title="The Mirror"
+            description="Built a minimalist self-reflection app using AI, featuring secure user auth, subscription management, and a simple landing page."
+            tags={[
+              'C#',
+              '.NET',
+              'SQL Server',
+              'React Native',
+              'React',
+              'Typescript',
+              'TailwindCSS',
+              'Git',
+              'Visual Studio Code',
+            ]}
+            imgLink="/the-mirror.png"
+            link="https://getthemirror.app"
+          />
+          <Project
+            time="2024"
             title="Portfolio"
             description="A responsive personal portfolio website with optimized performance and seamless navigation to showcase my professional experience and technical projects."
             tags={['React', 'Typescript', 'TailwindCSS', 'Shadcn-ui', 'Git', 'Visual Studio Code']}
