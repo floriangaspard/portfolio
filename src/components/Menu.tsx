@@ -70,24 +70,24 @@ export const Menu = ({ refs }: MenuProps) => {
       >
         <FontAwesomeIcon icon={toggled ? faClose : faBars} className="text-2xl" />
       </button>
-      <div className="lg:hidden absolute top-4 right-6 z-20">
+      <div className="lg:hidden absolute top-4 right-6">
         <Socials />
       </div>
       <div className="sticky top-0 z-10 lg:w-3/12 lg:h-screen">
         <div
           className={
             'absolute lg:relative w-screen h-screen lg:w-3/12' +
-            (toggled ? ' bg-black bg-opacity-30' : '')
+            (toggled ? ' bg-gray-800 bg-opacity-30' : '')
           }
         >
           <div
             ref={menuRef}
             className={
-              (toggled ? 'opacity-100 ' : 'opacity-0 lg:opacity-100 ') +
+              (toggled ? 'opacity-100 z-2000 ' : 'opacity-0 lg:opacity-100 ') +
               'absolute flex flex-col h-screen justify-center pl-7 top-0 w-80 md:w-1/2 lg:w-3/12 bg-white transition-opacity ease-in-out duration-300'
             }
           >
-            <ul className="text-3xl">
+            <ul className="text-3xl text-gray-800">
               <li className={`p-3 ${active === 0 ? 'font-bold text-5xl' : ''}`}>
                 <a href="#about" onClick={() => setActive(0)}>
                   About

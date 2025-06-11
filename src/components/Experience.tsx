@@ -14,9 +14,9 @@ export const Experience = ({ refs }: ExperienceProps) => {
         if (el) refs.current[1] = el;
       }}
       id="experience"
-      className="flex flex-col mb-14 pb-14 border-b-4 border-black relative"
+      className="flex flex-col mb-14 pb-14 border-b-4 border-gray-800 relative"
     >
-      <h2 className="text-4xl mb-10 font-bold">Experience</h2>
+      <h2 className="text-4xl mb-10 font-bold text-gray-800">Experience</h2>
       <div className="relative before:bg-gray-300 before:w-[4px] before:absolute before:h-[98%] before:left-10 before:rounded-xl pl-24">
         <WorkExperience
           time="Sept 2022 - Sept 2023"
@@ -61,11 +61,11 @@ export const Experience = ({ refs }: ExperienceProps) => {
           link="https://vif-systems.com/"
         />
       </div>
-      <div className="flex bg-gray-100 p-5 mt-7 rounded-xl relative">
+      <div className="flex bg-gradient-to-br from-gray-50 via-slate-50 to-stone-50 backdrop-blur-sm border border-gray-200/60 shadow-xl shadow-gray-800/5 rounded-2xl mt-6 relative text-gray-800 leading-relaxed p-7">
         <FontAwesomeIcon icon={faGraduationCap} className="text-4xl absolute left-5 -top-14" />
         <FontAwesomeIcon
           icon={faCaretUp}
-          className="absolute left-8 -top-5 text-4xl text-gray-100 group-hover:text-black"
+          className="absolute left-8 -top-5 text-4xl text-gray-100 group-hover:text-gray-800"
         />
         <div>
           <p className="font-bold mb-3 text-2xl">Oct 2021</p>

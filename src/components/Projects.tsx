@@ -12,9 +12,9 @@ export const Projects = ({ refs }: ProjectsProps) => {
         if (el) refs.current[2] = el;
       }}
       id="projects"
-      className="mb-14 pb-14 border-b-4 border-b-black"
+      className="mb-14 pb-14 border-b-4 border-b-gray-800"
     >
-      <h2 className="text-4xl mb-10 font-bold">Projects</h2>
+      <h2 className="text-4xl mb-10 font-bold text-gray-800">Projects</h2>
       <div className="">
         <div className="gap-10 grid grid-cols-1 md:grid-cols-2">
           <Project
